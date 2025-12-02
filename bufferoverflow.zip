@@ -1,0 +1,25 @@
+--2025-12-02 16:54:10--  https://modules.lancaster.ac.uk/pluginfile.php/4184009/mod_folder/content/0/bufferoverflow.zip?forcedownload=1
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving modules.lancaster.ac.uk (modules.lancaster.ac.uk)... 148.88.22.33, 148.88.22.54
+Connecting to modules.lancaster.ac.uk (modules.lancaster.ac.uk)|148.88.22.33|:443... connected.
+HTTP request sent, awaiting response... 303 See Other
+Location: https://modules.lancaster.ac.uk/login/index.php [following]
+--2025-12-02 16:54:10--  https://modules.lancaster.ac.uk/login/index.php
+Reusing existing connection to modules.lancaster.ac.uk:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://weblogin.lancs.ac.uk/?cosign-https-modules.lancaster.ac.uk&https://modules.lancaster.ac.uk/login/index.php [following]
+--2025-12-02 16:54:10--  https://weblogin.lancs.ac.uk/?cosign-https-modules.lancaster.ac.uk&https://modules.lancaster.ac.uk/login/index.php
+Resolving weblogin.lancs.ac.uk (weblogin.lancs.ac.uk)... 148.88.65.54
+Connecting to weblogin.lancs.ac.uk (weblogin.lancs.ac.uk)|148.88.65.54|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /login/?cosign-https-modules.lancaster.ac.uk&https://modules.lancaster.ac.uk/login/index.php [following]
+--2025-12-02 16:54:10--  https://weblogin.lancs.ac.uk/login/?cosign-https-modules.lancaster.ac.uk&https://modules.lancaster.ac.uk/login/index.php
+Reusing existing connection to weblogin.lancs.ac.uk:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5856 (5.7K) [text/html]
+Saving to: ‘bufferoverflow.zip?forcedownload=1’
+
+     0K .....                                                 100% 93.8M=0s
+
+2025-12-02 16:54:10 (93.8 MB/s) - ‘bufferoverflow.zip?forcedownload=1’ saved [5856/5856]
+
